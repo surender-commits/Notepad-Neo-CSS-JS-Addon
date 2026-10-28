@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Notepad Neo CSS and JS",
+    "version": "1.0.0",
+    "description": "Custom CSS and JS for notepadneo.com",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://notepadneo.com/notepad/"
+            ],
+            "css": [
+                "custom_style.css"
+            ],
+            "js": [
+                "custom_script.js"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}

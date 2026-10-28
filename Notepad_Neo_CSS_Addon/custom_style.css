@@ -1,0 +1,154 @@
+.nn-editor-pad {
+    padding: 15px 15px 15px 15px !important;
+}
+
+.editor-paper {
+    /* box-shadow: 0px 0px 4px 2px #0000004d !important; */
+    /* --bg: #fff;
+
+    --line: #70707004;
+    --w: .5%;
+
+    --p1: 5%;
+    --p2: 20%;
+    --p3: 60%;
+
+    background: linear-gradient(to right,
+            var(--bg) var(--p1),
+            var(--line) var(--p1) calc(var(--p1) + var(--w)),
+
+            var(--bg) calc(var(--p1) + var(--w)) var(--p2),
+            var(--line) var(--p2) calc(var(--p2) + var(--w)),
+
+            var(--bg) calc(var(--p2) + var(--w)) var(--p3),
+            var(--line) var(--p3) calc(var(--p3) + var(--w)),
+
+            var(--bg) calc(var(--p3) + var(--w))) !important; */
+}
+
+[data-theme=dark] .editor-paper {
+    --shadow-4: 0px 2px 2px #ffffff4d, 0px 8px 16px -4px #ffffff06, inset 0 0 0 1px #00000012;
+    filter: invert(1);
+    background: #e7e7e7;
+}
+
+.app-tabbar::-webkit-scrollbar {
+    display: none;
+}
+
+.nn-editor-viewport::-webkit-scrollbar {
+    /* display: none; */
+}
+
+.nn-seo-section {
+    display: none;
+}
+
+
+footer {
+    display: none;
+}
+
+
+::selection {
+    color: unset !important;
+    background-color: #60b4ff !important;
+}
+
+[data-theme=dark] ::selection {
+    background-color: #9f4b00 !important;
+}
+
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    background: #8b8b8b;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
+
+
+
+
+[data-theme=dark] *::-webkit-scrollbar {
+    width: 10px;
+}
+
+[data-theme=dark] *::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+[data-theme=dark] *::-webkit-scrollbar-thumb {
+    background: #4f4f4f;
+    border-radius: 5px;
+}
+
+[data-theme=dark] *::-webkit-scrollbar-thumb:hover {
+    background: #6f6f6f;
+}
+
+
+
+
+
+
+
+
+.nn-tab-close {
+    display: none !important;
+}
+
+.nn-tab-title {
+    margin-right: 14px;
+}
+
+
+
+
+button.nn-tab {
+    border-top: 2px solid transparent;
+}
+
+
+button.nn-tab[aria-selected="true"] {
+    border-top: 2px solid #0070f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#editor-paper h1 {
+    text-align: center !important;
+    color: #ff4bff !important;
+}
+
+#editor-paper h2 {
+    color: #0070ff !important;
+}
+
+#editor-paper h3 {
+    background-color: #ffed0070 !important;
+}
